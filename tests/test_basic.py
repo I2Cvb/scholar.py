@@ -29,5 +29,17 @@ class BasicTestSuite(unittest.TestCase):
         querier.send_query(query)
         citation_export(querier)
 
+    def test_get_cluster(self):
+        """Retrieve the articles that reference Albert Einstein's quantum theory paper:
+        """
+       cluster-id=8174092782678430881
+       # siktodo
+
+    def test_get_library(self):
+        """Retrieve the articles from a library id:
+        """
+       # siktodo
+       # library url example https://scholar.google.fr/scholar?scilib=1024&hl=en&as_sdt=0,5
+
 if __name__ == '__main__':
     unittest.main()
